@@ -17,12 +17,12 @@ public class Main : MonoBehaviour {
 
     void CreateStarfield()
     {
-        for (int i = 0; i < 20000; i++)
+        for (int i = 0; i < 80000; i++)
         {
             //set position of new star randomly
-            float x = Random.Range(-200, 200);
-            float y = Random.Range(-200, 200);
-            float z = Random.Range(-200, 200);
+            float x = Random.Range(-999, 999);
+            float y = Random.Range(-999, 999);
+            float z = Random.Range(-999, 999);
 
             //place star in scene
             Instantiate(star);
