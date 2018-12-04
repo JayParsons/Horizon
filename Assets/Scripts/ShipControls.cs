@@ -7,7 +7,7 @@ public class ShipControls : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         //ship moves forward a little by default
-        GetComponent<Rigidbody>().AddForce(transform.forward * Time.deltaTime * 300);
+        GetComponent<Rigidbody>().AddForce(transform.forward * Time.deltaTime * 6000);
     }
 	
 	// Update is called once per frame
