@@ -30,6 +30,6 @@ public class Cutscene1Controls : MonoBehaviour
         yield return new WaitForSecondsRealtime(3);
         gameObject.transform.GetChild(0).gameObject.SetActive(true);
         yield return new WaitForSecondsRealtime(10);
-        SceneManager.LoadScene("Ending");
+        SceneManager.LoadScene("ExiterStation");
     }
 }

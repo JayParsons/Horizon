@@ -1177,7 +1177,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I guess all the enemies took the day off today...
+  m_Text: "I guess the rest of our enemies \ntook the day off today..."
 --- !u!222 &667499644
 CanvasRenderer:
   m_ObjectHideFlags: 0

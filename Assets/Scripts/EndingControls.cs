@@ -24,8 +24,12 @@ public class EndingControls : MonoBehaviour {
 
     private IEnumerator Wait()
     {
-        yield return new WaitForSecondsRealtime(3);
-        gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        for (int i = 0; i <= 8; i++)
+        {
+            yield return new WaitForSecondsRealtime(3);
+            gameObject.transform.GetChild(i).gameObject.SetActive(true);
+        }
+        
         yield return new WaitForSecondsRealtime(5);
         Application.Quit();
     }

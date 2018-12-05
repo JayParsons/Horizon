@@ -61,14 +61,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AnnaLeeStationControls.cs" />
     <Compile Include="Assets\Scripts\Cutscene1Controls.cs" />
     <Compile Include="Assets\Scripts\Cutscene1ShipMotion.cs" />
+    <Compile Include="Assets\Scripts\Cutscene2Controls.cs" />
+    <Compile Include="Assets\Scripts\Cutscene2ShipMotion.cs" />
+    <Compile Include="Assets\Scripts\Cutscene3Controls.cs" />
+    <Compile Include="Assets\Scripts\Cutscene3ShipMotion.cs" />
     <Compile Include="Assets\Scripts\EndingControls.cs" />
+    <Compile Include="Assets\Scripts\ExiterStationControls.cs" />
+    <Compile Include="Assets\Scripts\GameOverControls.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
     <Compile Include="Assets\Scripts\PrologueControls.cs" />
     <Compile Include="Assets\Scripts\Ship.cs" />
     <Compile Include="Assets\Scripts\ShipControls.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\Timer2.cs" />
+    <Compile Include="Assets\Scripts\Timer3.cs" />
     <Compile Include="Assets\Scripts\TitleScreenControls.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/JP/source/repos/Horizon/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

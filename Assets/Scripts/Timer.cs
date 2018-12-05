@@ -74,11 +74,6 @@ public class Timer : MonoBehaviour {
         }
     }
 
-    private void FixedUpdate()
-    {
-        
-    }
-
     private void OnGUI()
     {
         if (timerFinished == true)

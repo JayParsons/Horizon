@@ -18,6 +18,27 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScene1.unity
     guid: 337f83e7de8657d4fb6e9f6881908354
   - enabled: 1
+    path: Assets/Scenes/ExiterStation.unity
+    guid: da55c2ad4a9eda14692797133c568b0a
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 5f385f8c0c65356419d433244cc829c6
+  - enabled: 1
+    path: Assets/Scenes/CutScene2.unity
+    guid: 803ab949f4457be4d99c15c5add2ee0d
+  - enabled: 1
+    path: Assets/Scenes/AnnaLeeStation.unity
+    guid: ba6f52bd2406211479fddd21be307e1a
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: d94038ff58d354b4082eb06772f591c5
+  - enabled: 1
+    path: Assets/Scenes/CutScene3.unity
+    guid: 24ac91915b1de4c4897788c5b070ac56
+  - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: da0fac7091e0b3346b571147269e3bfe
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 69db4b12047f3d84cb277b27f82d2e95
   m_configObjects: {}
