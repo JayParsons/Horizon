@@ -973,6 +973,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   star: {fileID: 1612935822298374, guid: c89aeb98110ac504f9a939f4f0100c99, type: 2}
+  enemy1: {fileID: 100002, guid: c378b8c2814ab3b438c9f61c6ea4f0f6, type: 3}
+  enemy2: {fileID: 100002, guid: f1fe6248f2670a044a0e5a3d7238d3de, type: 3}
+  enemy3: {fileID: 100002, guid: fee1664d807fa1e4b9ba1c92b3d7a1f8, type: 3}
+  enemy1Pool: []
+  enemy2Pool: []
+  enemy3Pool: []
 --- !u!1 &561041562
 GameObject:
   m_ObjectHideFlags: 0

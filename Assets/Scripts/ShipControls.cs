@@ -8,23 +8,15 @@ public class ShipControls : MonoBehaviour {
 	void Start () {
         //ship moves forward a little by default
         GetComponent<Rigidbody>().AddForce(transform.forward * Time.deltaTime * 6000);
+
+        //set ship's weapon to inactive at the start of the scene
+        gameObject.transform.GetChild(2).gameObject.SetActive(false);
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            Debug.Log("Pressing up arrow");
-            GetComponent<Rigidbody>().AddForce(transform.forward * Time.deltaTime * 600);
-        }
 
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            Debug.Log("Pressing down arrow");
-            GetComponent<Rigidbody>().AddForce(-transform.forward * Time.deltaTime * 600);
-        }
-
-        //Pressing 'A' or 'D' allows the player and the camera to be roated side to side
+        //Pressing 'A' or 'D' allows the player and the camera to be rotated side to side
         if (Input.GetKey(KeyCode.A))
         {
             Debug.Log("Pressing A key");
@@ -47,6 +39,12 @@ public class ShipControls : MonoBehaviour {
         {
             Debug.Log("Pressing S key");
             transform.RotateAround(GetComponent<Rigidbody>().position, Vector3.left, -1);
+        }
+
+        if (Input.GetKey(KeyCode.Space)) {
+            Debug.Log("Pressing space key");
+            gameObject.transform.GetChild(2).gameObject.SetActive(true);
+            gameObject.transform.GetChild(2).gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * Time.deltaTime * 8000);
         }
 
     }

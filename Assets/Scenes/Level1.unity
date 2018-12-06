@@ -113,6 +113,48 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &124869473
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 321422781}
+    m_Modifications:
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -6.055
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.64942336
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.0056674457
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.006635727
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.76037705
+      objectReference: {fileID: 0}
+    - target: {fileID: 4688719630486426, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 766586fc79573654aa603536ad81d8b1, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &127863187
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1014,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   star: {fileID: 1612935822298374, guid: c89aeb98110ac504f9a939f4f0100c99, type: 2}
+  enemy1: {fileID: 100002, guid: c378b8c2814ab3b438c9f61c6ea4f0f6, type: 3}
+  enemy2: {fileID: 100002, guid: f1fe6248f2670a044a0e5a3d7238d3de, type: 3}
+  enemy3: {fileID: 100002, guid: fee1664d807fa1e4b9ba1c92b3d7a1f8, type: 3}
+  enemy1Pool: []
+  enemy2Pool: []
+  enemy3Pool: []
 --- !u!1 &561041562
 GameObject:
   m_ObjectHideFlags: 0
