@@ -1,3 +1,5 @@
+NOTE: This game prototype is back in active development as of September 2019. The goals of this refactor are to turn the prototype into a full game demo, and hone the skills I've learned since this course ended. 
+
 CSCI 4168 Final Project
 
 Horizon
